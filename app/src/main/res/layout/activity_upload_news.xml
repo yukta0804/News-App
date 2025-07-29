@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="24dp">
+
+    <EditText android:id="@+id/title" android:hint="Title"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@+id/description" android:hint="Description"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btnUpload" android:text="Upload News"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
